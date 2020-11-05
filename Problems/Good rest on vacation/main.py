@@ -1,0 +1,5 @@
+duration = int(input())
+total_food_day = int(input())
+one_way_flight = int(input())
+one_night = int(input())
+print(duration * total_food_day + one_way_flight * 2 + one_night * (duration - 1))
